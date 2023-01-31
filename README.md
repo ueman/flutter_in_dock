@@ -1,16 +1,7 @@
 # flutter_in_dock
 
-A new Flutter project.
+Renders a Flutter app to the dock icon of an app.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The interesting bits are the following lines:
+- https://github.com/ueman/flutter_in_dock/blob/4c64a7a77fb67b04e096410f57836334c83aecad/macos/Runner/MainFlutterWindow.swift#L19-L29
+- https://github.com/ueman/flutter_in_dock/blob/4c64a7a77fb67b04e096410f57836334c83aecad/lib/main.dart#L83-L91
